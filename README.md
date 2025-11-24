@@ -16,16 +16,15 @@ This task was completed as per CloudQA internship assignment instructions.
 ---
 
 ##  Project Structure
+```bash
+
 cloudqa-test/
 │
 ├── index.js
 ├── package.json
 ├── package-lock.json
 └── README.md
-
-
-
----
+```
 
 ##  What this automation does
 
