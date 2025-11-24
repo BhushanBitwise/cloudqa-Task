@@ -31,14 +31,14 @@ cloudqa-test/
 
 The script:
 
-✔ Opens Chrome  
-✔ Loads Automation form page  
-✔ Enters values in:  
+ Opens Chrome  
+ Loads Automation form page  
+ Enters values in:  
    - First Name  
    - Last Name  
    - Email  
-✔ Prints: **TEST PASSED!**  
-✔ Closes Browser
+ Prints: **TEST PASSED!**  
+ Closes Browser
 
 ---
 
@@ -50,7 +50,6 @@ async function runTest() {
     // puppeteer.launch() Chrome browser open hoga   headless = hidden browser -> false → show browser
     const browser = await puppeteer.launch({ headless: false });
 
-    //
     const page = await browser.newPage();
 
     await page.goto("https://app.cloudqa.io/home/AutomationPracticeForm");
@@ -70,14 +69,16 @@ runTest();
 ---
 
 ## Run 
-node index.js
+```bash
+  node index.js
+```
 
 ##  Screenshots
 
 All screenshots related to the automation run are stored here:
 
-`/screenshots/demo1.png`
-`/screenshots/demo2.png`
-`/screenshots/demo3.png`
+![Code Manager Application](./screenshots/demo1.png)
 
+![Code Manager Application](./screenshots/demo2.png)
 
+![Code Manager Application](./screenshots/demo3.png)
