@@ -40,9 +40,10 @@ The script:
  Prints: **TEST PASSED!**  
  Closes Browser
 
----
 
 ##  Source Code (index.js)
+
+```bash
 
 const puppeteer = require("puppeteer");
 
@@ -66,7 +67,7 @@ async function runTest() {
 
 runTest();
 
----
+```
 
 ## Run 
 ```bash
